@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+
+.navbar {
+    display: flex;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+nav a {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+}
+
+.row {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.col h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 8px 30px;
+    border-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.Header {
+    background: radial-gradient(#ACB6E5, #9bd4cc);
+}
+
+.col-2 {
+    flex-basis: 30%;
+    min-width: 250px;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-3 {
+    flex-basis: 23%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-3 img.product {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 20 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.col-4 {
+    flex-basis: 40%;
+    min-width: 300px;
+}
+
+.col-4 img {
+    max-width: 100%;
+}
+
+.col-4 h1 {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.col-4 p {
+    font-size: 16px;
+}
+
+.col-4 small {
+    font-size: 100%;
+}
+
+.col-5 {
+    padding-top: 100px;
+    flex-basis: 30%;
+    text-align: center;
+    height: 400px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.col-5 img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.col-5 p {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.col-5 .rating img {
+    width: 18px;
+    height: 18px;
+}
+
+.brands {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.footer h1 {
+    color: aliceblue;
+}
+
+.footer p {
+    color: aliceblue;
+}
+
+.col-8 {
+    flex-basis: 25%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.app-logo {
+    display: inline;
+}
+
+#third {
+    box-sizing: border-box;
+    padding-left: 30px;
+}
